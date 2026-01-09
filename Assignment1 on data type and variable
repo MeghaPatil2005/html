@@ -1,0 +1,187 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN8xBIvDEneXz6bwcWSyj4d",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/MeghaPatil2005/html/blob/main/Assignment1%20on%20data%20type%20and%20variable\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sIiUXGZBQS7Y",
+        "outputId": "b4b120e8-0e22-46b3-9dfe-11198510c28e"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Name: Megha | Data type: <class 'str'>\n",
+            "Age: 21 | Data type: <class 'int'>\n",
+            "Height: 5.9 | Data type: <class 'float'>\n",
+            "Is Student: True | Data type: <class 'bool'>\n"
+          ]
+        }
+      ],
+      "source": [
+        "\n",
+        "name = \"Megha\"\n",
+        "age = 21\n",
+        "height =5.9\n",
+        "is_student = True\n",
+        "print(\"Name:\", name, \"| Data type:\", type(name))\n",
+        "print(\"Age:\", age, \"| Data type:\", type(age))\n",
+        "print(\"Height:\", height, \"| Data type:\", type(height))\n",
+        "print(\"Is Student:\", is_student, \"| Data type:\", type(is_student))\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "name = input(\"Enter your name: \")\n",
+        "favorite_number =input(\"Enter your favorite number: \")\n",
+        "print(\"Hello \" + name + \", your favorite number is \" + favorite_number + \".\")\n",
+        "print(\"Data type of name:\", type(name))\n",
+        "print(\"Data type of favorite number:\", type(favorite_number))\n",
+        "num=int(favorite_number)\n",
+        "print(\"datatye:\",num)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "H6zAQZ5ORLAL",
+        "outputId": "3af6edb6-467b-4419-9fde-c935d9971993"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your name: megha\n",
+            "Enter your favorite number: 7\n",
+            "Hello megha, your favorite number is 7.\n",
+            "Data type of name: <class 'str'>\n",
+            "Data type of favorite number: <class 'str'>\n",
+            "datatye: 7\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "m-6jvXiK1gvF"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=input(\"enter first number\")\n",
+        "b=input(\"enter second number\")\n",
+        "c=int(a)\n",
+        "d=int(b)\n",
+        "sum=c+d\n",
+        "diff=c-d\n",
+        "product=c*d\n",
+        "quotient=c/d\n",
+        "print(\"sum:\",sum)\n",
+        "print(\"difference:\",diff)\n",
+        "print(\"product\",product)\n",
+        "print(\"quotient:\",quotient)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "C7BpnJaYTni5",
+        "outputId": "977d25d1-f21c-4768-c556-dbe12d64f497",
+        "collapsed": true
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter first number5\n",
+            "enter second number4\n",
+            "sum: 9\n",
+            "difference: 1\n",
+            "product 20\n",
+            "quotient: 1.25\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "price=input(\"enter the price of the item\")\n",
+        "quantity=input(\"enter the quantity of the item\")\n",
+        "pri=int(price)\n",
+        "qua=int(quantity)\n",
+        "total=pri*qua\n",
+        "print(\"total cost :\",total)"
+      ],
+      "metadata": {
+        "id": "lovBNDIGWI0V",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "a3106969-6a86-47c6-ebe1-bd105895560b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "enter the price of the item499\n",
+            "enter the quantity of the item3\n",
+            "total cost : 1497\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "p7ctEIKO2bUz"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
